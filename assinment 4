@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main ()
+{
+  float a, b, c, d;
+
+  printf ("price of one kg of rice:-   ");
+  scanf ("%f", &a);
+  printf ("price of one kg of sugar:-   ");
+  scanf ("%f", &b);
+  c = a;
+  d = b;
+  printf ("\n**LIST OF VALUES**\n");
+  printf ("\nitem       prices");
+  printf ("\nrice      rs. %.2f", c);
+  printf ("\nsugar    rs. %.2f", d);
+  return 0;
+}
