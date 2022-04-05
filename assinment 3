@@ -1,0 +1,12 @@
+  #include <stdio.h>
+
+int main ()
+{
+  int a, b, c;
+  printf ("Enter number of days:-   ");
+  scanf ("%d", &a);
+  b = a / 30;
+  c = a % 30;
+  printf ("Number of months and days =%dmonths%ddays", b, c);
+  return 0;
+}
