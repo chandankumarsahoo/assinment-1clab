@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+	int Paisa,Ruppes,ep;
+	printf("Enter Total Ruppes : ");
+	scanf("%d",&Ruppes);
+	Paisa = Ruppes * 100;
+    ep = Paisa % 100;
+    printf("\nTotal Paisa = %d",Paisa);
+	printf("\nConverted Ruppes in Paisa = %d",Paisa);
+
+	return 0;
+}
